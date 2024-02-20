@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Agrox</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}" type="text/css" media="all">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}" type="text/css" media="all">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" media="all">
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.6.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/tms-0.3.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/tms_presets.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="{{ url_for('static', filename='js/html5.js') }}"></script>
+<style type="text/css">#menu a, .bg, .bg2, #ContactForm a {behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+</head>
+<body id="page1">
+<div class="body1">
+  <div class="main">
+    <!--header -->
+    <header>
+      <div class="wrapper" style="display:flex;">
+          <ul id="menu" style="width:100%;display:flex;justify-content:space-between;">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="action.html" >Calibration</a></li>
+          </ul>
+      </div>
+      <div class="slider_bg">
+        <div class="slider">
+          <ul class="items">
+            <li><img src="{{ url_for('static', filename='images/img1.jpg') }}" alt=""></li>
+            <li><img src="{{ url_for('static', filename='images/img2.jpg') }}" alt=""></li>
+            <li><img src="{{ url_for('static', filename='images/img3.jpg') }}" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- / header -->
+    <!-- content -->
+
+    <!-- / content -->
+  </div>
+</div>
+<div class="main">
+  <!-- footer -->
+
+  <!-- / footer -->
+</div>
+</body>
+</html>
